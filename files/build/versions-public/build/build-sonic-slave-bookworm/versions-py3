@@ -8,6 +8,7 @@ docker-image-py==0.1.13
 enlighten==1.14.1
 enum34==1.1.10
 execnet==2.1.2
+fastjsonschema==2.21.2
 filelock==3.29.4
 ijson==3.5.0
 inotify==0.2.12
@@ -30,6 +31,7 @@ pycairo==1.26.1
 pynacl==1.6.2
 pyroute2==0.9.6
 pytest-xdist==3.8.0
+regex==2024.11.6
 responses==0.26.1
 scp==0.14.5
 semantic-version==2.10.0
