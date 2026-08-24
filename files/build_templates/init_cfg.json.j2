@@ -111,6 +111,7 @@
 {%- elif include_system_eventd == "y" %}
     {% do features.append(("eventd", "enabled", false, "enabled")) %}
 {%- endif %}
+{%- if sonic_asic_platform == 'aspeed' %}{% do features.append(("redfish", "disabled", false, "enabled")) %}{% endif %}
     "FEATURE": {
 {# delayed features are started by featured after port initialization or its timeout #}
 {%- for feature, state, delayed, autorestart in features %}
